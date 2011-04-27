@@ -13,11 +13,11 @@ module NavigationHelpers
     when /the new Item page/
 	    '/items/new'
     when /the new CD page/
-	    '/cds/new/'
+	    '/items/newcd/'
     when /the new DVD page/
-	    '/dvds/new/'
+	    '/items/newdvd/'
     when /the new book page/
-	    '/books/new/'
+	    '/items/newbook/'
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

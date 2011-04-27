@@ -1,0 +1,2 @@
+class CdsController < ApplicationController
+end
