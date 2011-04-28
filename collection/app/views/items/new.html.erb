@@ -1,0 +1,6 @@
+<h3>Add a new item</h3>
+<%= form_for @item do |f| %>
+	<%= f.label :type %>
+	<%= f.select :type, options_for_select(CreateItems::ITEMS) %>
+	<%= f.submit "Submit", :disable_with => "Submitting..." %>
+<% end %>

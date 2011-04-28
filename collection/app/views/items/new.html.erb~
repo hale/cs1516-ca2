@@ -1,0 +1,8 @@
+<h3>Add a new item</h3>
+<form action="">
+	<select name="Type">
+		<option value="cd">CD</option>
+		<option value="dvd">DVD</option>
+		<option value="book">Book</option>
+	</select>
+</form>
